@@ -1,4 +1,13 @@
 const App = () => {
-  return <h2>Menu Starter</h2>;
+  return (
+    <main>
+      <section className="menu">
+
+      </section>
+    </main>
+  );
 };
 export default App;
+
+// progress:
+// - 
