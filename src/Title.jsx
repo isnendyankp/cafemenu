@@ -4,6 +4,7 @@ const Title = ({text}) => {
   return (
     <div className="title">
       <h2>{text || 'Default Title'}</h2>
+      <div className="title-underline"></div>
     </div>
   );
 }
@@ -15,3 +16,4 @@ export default Title
 // - s7-195:Add prop text on title
 //-  s7-196:cr8 div with classname title
 // - s7-196:pass in text & if not will return default title
+// - s7-196:Add div with className title-underline
