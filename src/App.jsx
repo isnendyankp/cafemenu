@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Title from './Title';
 
 const App = () => {
@@ -18,3 +19,4 @@ export default App;
 // - s7-195:pass in title in section
 // - s7-196:setup text prop with our menu
 // - s7-197:cr8 menuItems useState
+// - s7-197:import useState
