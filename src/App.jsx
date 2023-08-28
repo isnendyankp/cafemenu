@@ -1,6 +1,7 @@
 import Title from './Title';
 
 const App = () => {
+  const [menuItems, setMenuItems] = useState(menu);
   return (
     <main>
       <section className="menu">
@@ -16,3 +17,4 @@ export default App;
 // - s7-195:import title
 // - s7-195:pass in title in section
 // - s7-196:setup text prop with our menu
+// - s7-197:cr8 menuItems useState
