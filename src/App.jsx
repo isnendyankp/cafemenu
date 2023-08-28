@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import menu from './data';
 import Title from './Title';
+import Menu from './Menu';
 
 const App = () => {
   const [menuItems, setMenuItems] = useState(menu);
@@ -8,6 +9,7 @@ const App = () => {
     <main>
       <section className="menu">
         <Title text='our menu'/>
+        <Menu items={menuItems}/>
       </section>
     </main>
   );
@@ -22,3 +24,4 @@ export default App;
 // - s7-197:cr8 menuItems useState
 // - s7-197:import useState from react
 // - s7-197:import menu from data
+// - s7-197:Pass in Menu with items prop
