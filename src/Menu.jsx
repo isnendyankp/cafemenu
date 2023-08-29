@@ -1,16 +1,17 @@
-import React from 'react'
+import React from 'react';
+import MenuItem from './MenuItem';
 
-const Menu = ({items}) => {
+const Menu = ({ items }) => {
   return (
-    <div className='section-center'>
-      {items.map((MenuItem) =>{
+    <div className="section-center">
+      {items.map((menuItem) => {
         return <MenuItem key={menuItem.id} {...menuItem} />;
       })}
     </div>
-  )
-}
+  );
+};
 
-export default Menu
+export default Menu;
 
 // Progress:
 // - s7-197:Cr8 menu.jsx file with base structure
@@ -20,3 +21,4 @@ export default Menu
 // - s7-197:Add Menuitem para for items.map
 // - s7-197:Add return with pass in Menuitem
 // - s7-197:Add key for indentification for each element from list & spread operator use for combine all properti from menuItem object
+// - 7-197:Fix code & import MenuItem
