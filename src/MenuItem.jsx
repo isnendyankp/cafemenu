@@ -9,6 +9,7 @@ const MenuItem = ({ img, title, price, desc }) => {
           <h5>{title}</h5>
           <span className="item-price">${price}</span>
         </header>
+        <p className="item-text"></p>
       </div>
     </article>
   );
@@ -24,3 +25,4 @@ export default MenuItem
 // - s7-197:Add header, h5 & pass in title
 // - s7-197:Add span with className item-price
 // - s7-197:Pass in price param on span
+// - s7-197:Add para with className item-text
