@@ -21,4 +21,4 @@ export default Menu;
 // - s7-197:Add Menuitem para for items.map
 // - s7-197:Add return with pass in Menuitem
 // - s7-197:Add key for indentification for each element from list & spread operator use for combine all properti from menuItem object
-// - 7-197:Fix code & import MenuItem
+// - s7-197:Fix code & import MenuItem
