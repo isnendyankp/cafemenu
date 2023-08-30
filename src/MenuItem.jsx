@@ -7,6 +7,7 @@ const MenuItem = ({ img, title, price, desc }) => {
       <div className="item-info">
         <header>
           <h5>{title}</h5>
+          <span className='item-price'></span>
         </header>
       </div>
     </article>
@@ -21,3 +22,4 @@ export default MenuItem
 // - s7-197:Add menu-item className at article
 // - s7-197:Add div with className item-info
 // - s7-197:Add header, h5 & pass in title
+// - s7-197:Add span with className item-price
