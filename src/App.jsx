@@ -4,7 +4,8 @@ import Title from './Title';
 import Menu from './Menu';
 
 const tempCategories = menu.map((item) => item.category);
-console.log(tempCategories);
+const tempSet = new Set(tempCategories);
+console.log(tempSet);
 
 const App = () => {
   const [menuItems, setMenuItems] = useState(menu);
@@ -28,4 +29,5 @@ export default App;
 // - s7-197:import useState from react
 // - s7-197:import menu from data
 // - s7-197:Pass in Menu with items prop
-// - s7-197:cr8 tempCategories(tempCategories will be a new array containing the category values of each element in the menu array.)
+// - s7-197:cr8 tempCategories(tempCategories will be a new array containing the category values of each element in the menu array).
+// - s7-197:cr8 tempSet(tempSet will contain the unique values of the categories in the tempCategories array).
