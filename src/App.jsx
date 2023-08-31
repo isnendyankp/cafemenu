@@ -5,7 +5,8 @@ import Menu from './Menu';
 
 const tempCategories = menu.map((item) => item.category);
 const tempSet = new Set(tempCategories);
-console.log(tempSet);
+const tempItems = ['all', ...tempSet];
+console.log(tempItems);
 
 const App = () => {
   const [menuItems, setMenuItems] = useState(menu);
@@ -31,3 +32,4 @@ export default App;
 // - s7-197:Pass in Menu with items prop
 // - s7-197:cr8 tempCategories(tempCategories will be a new array containing the category values of each element in the menu array).
 // - s7-197:cr8 tempSet(tempSet will contain the unique values of the categories in the tempCategories array).
+// - s7-197:cr8 tempItems(tempItems will be a new array containing 'all' as the first element, followed by all the category values present in the tempSet).
