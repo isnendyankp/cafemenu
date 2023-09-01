@@ -18,9 +18,9 @@ const App = () => {
   return (
     <main>
       <section className="menu">
-        <Title text='our menu'/>
-        <Menu items={menuItems}/>
-        <Categories />
+        <Title text="our menu" />
+        <Menu items={menuItems} />
+        <Categories categories={categories} />
       </section>
     </main>
   );
@@ -44,3 +44,4 @@ export default App;
 // - s7-198: try log categories
 // - s7-199:Import categories
 // - s7-199:pass in Categories
+// - s7-199:Add categories prop equal to value categories
