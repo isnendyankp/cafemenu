@@ -12,6 +12,7 @@ const allCategories = ['all', ...new Set(items.map((item) => item.category))];
 
 const App = () => {
   const [menuItems, setMenuItems] = useState(menu);
+  const [categories, setCategories] = useState(allCategories);
   return (
     <main>
       <section className="menu">
@@ -36,3 +37,4 @@ export default App;
 // - s7-197:cr8 tempSet(tempSet will contain the unique values of the categories in the tempCategories array).
 // - s7-197:cr8 tempItems(tempItems will be a new array containing 'all' as the first element, followed by all the category values present in the tempSet).
 // - s7-197:cr8 shorthand variable allCategories(allCategories will be a new array containing 'all' as the first element, followed by all unique categories retrieved from the items array.)
+// - s7-198:cr8 state categories
