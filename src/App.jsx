@@ -20,6 +20,7 @@ const App = () => {
       <section className="menu">
         <Title text='our menu'/>
         <Menu items={menuItems}/>
+        <Categories />
       </section>
     </main>
   );
@@ -42,3 +43,4 @@ export default App;
 // - s7-198:cr8 state categories
 // - s7-198: try log categories
 // - s7-199:Import categories
+// - s7-199:pass in Categories
