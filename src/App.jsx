@@ -2,6 +2,7 @@ import { useState } from 'react';
 import menu from './data';
 import Title from './Title';
 import Menu from './Menu';
+import Categories from './Categories';
 
 // const tempCategories = menu.map((item) => item.category);
 // const tempSet = new Set(tempCategories);
@@ -40,3 +41,4 @@ export default App;
 // - s7-197:cr8 shorthand variable allCategories(allCategories will be a new array containing 'all' as the first element, followed by all unique categories retrieved from the items array.)
 // - s7-198:cr8 state categories
 // - s7-198: try log categories
+// - s7-199:Import categories
