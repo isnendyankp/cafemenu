@@ -19,8 +19,8 @@ const App = () => {
     <main>
       <section className="menu">
         <Title text="our menu" />
-        <Menu items={menuItems} />
         <Categories categories={categories} />
+        <Menu items={menuItems} />
       </section>
     </main>
   );
@@ -45,3 +45,4 @@ export default App;
 // - s7-199:Import categories
 // - s7-199:pass in Categories
 // - s7-199:Add categories prop equal to value categories
+// - s7-199:move up categories before menu
