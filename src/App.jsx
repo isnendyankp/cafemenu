@@ -15,7 +15,7 @@ const App = () => {
   const [menuItems, setMenuItems] = useState(menu);
   const [categories, setCategories] = useState(allCategories);
   console.log(categories);
-  const filterItems = () => {
+  const filterItems = (category) => {
 
   }
   return (
@@ -50,3 +50,4 @@ export default App;
 // - s7-199:Add categories prop equal to value categories
 // - s7-199:move up categories before menu
 // - s7-200:Setup filterItems base
+// - s7-200:Add category parameter on filterItems
