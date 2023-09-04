@@ -22,7 +22,7 @@ const App = () => {
     <main>
       <section className="menu">
         <Title text="our menu" />
-        <Categories categories={categories} />
+        <Categories categories={categories} filterItems={filterItems} />
         <Menu items={menuItems} />
       </section>
     </main>
@@ -52,3 +52,4 @@ export default App;
 // - s7-200:Setup filterItems base
 // - s7-200:Add category parameter on filterItems
 // - s7-200:Checking log category for filterItems
+// - s7-200:pass in filterItems on Categories parameter
