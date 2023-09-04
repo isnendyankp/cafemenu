@@ -16,7 +16,7 @@ const App = () => {
   const [categories, setCategories] = useState(allCategories);
   console.log(categories);
   const filterItems = (category) => {
-
+    console.log(category);
   }
   return (
     <main>
@@ -51,3 +51,4 @@ export default App;
 // - s7-199:move up categories before menu
 // - s7-200:Setup filterItems base
 // - s7-200:Add category parameter on filterItems
+// - s7-200:Checking log category for filterItems
