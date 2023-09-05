@@ -15,11 +15,14 @@ const App = () => {
   const [menuItems, setMenuItems] = useState(menu);
   const [categories, setCategories] = useState(allCategories);
   console.log(categories);
-  const filterItems = (category) => {
-    console.log(category);
-    const newItems = menu.filter((item) => item.category === category);
-    setMenuItems(newItems);
-  }
+   const filterItems = (category) => {
+     if (category === 'all') {
+       setMenuItems(items);
+       return;
+     }
+     const newItems = items.filter((item) => item.category === category);
+     setMenuItems(newItems);
+   };
   return (
     <main>
       <section className="menu">
@@ -57,3 +60,4 @@ export default App;
 // - s7-200:pass in filterItems on Categories parameter
 // - s7-200:Setup for filter category value
 // - s7-200:Add setMenuItems for passing newItems
+// - s7-200:Add if statement for setMenuItems
