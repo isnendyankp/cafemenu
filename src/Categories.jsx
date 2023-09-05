@@ -5,7 +5,12 @@ const Categories = ({ categories, filterItems }) => {
     <div className="btn-container">
       {categories.map((category) => {
         return (
-          <button type="button" className="btn" key={category}>
+          <button
+            type="button"
+            className="btn"
+            key={category}
+            onClick={() => filterItems(category)}
+          >
             {category}
           </button>
         );
@@ -24,3 +29,4 @@ export default Categories
 // - s7-199:Add key with catergory parameter on btn return
 // - s7-199:Pass in display category
 // - s7-200:Access Setup filterItems
+// - s7-200:Add onClick for passing filterItems
