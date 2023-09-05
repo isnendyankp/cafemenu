@@ -17,6 +17,7 @@ const App = () => {
   console.log(categories);
   const filterItems = (category) => {
     console.log(category);
+    const newItems = menu.filter((item) => item.category === category);
   }
   return (
     <main>
@@ -53,3 +54,4 @@ export default App;
 // - s7-200:Add category parameter on filterItems
 // - s7-200:Checking log category for filterItems
 // - s7-200:pass in filterItems on Categories parameter
+// - s7-200:Setup for filter category value
